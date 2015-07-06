@@ -85,7 +85,7 @@ def get_sol(size):
     #min_len = tsp_dp(point_size)
     #min_path = []
     print min_len
-    print_solution(min_path)
+    """print_solution(min_path)"""
 
 '''def divide_group(point_table, point_size):
     if point_size <= 20:
@@ -128,7 +128,7 @@ if __name__ == '__main__':
             distance_table = distance(groups)
             get_sol(len(groups))
             group_lists.append(groups)
-        g = 0
+        """g = 0
         group_dis = 0.0
         min_group_dis_list = []
         s = g+1
@@ -140,3 +140,7 @@ if __name__ == '__main__':
             min_group_dis = min(min_group_dis_list)
         print min_group_dis
     #divide_group(point_table, point_size)
+    input 4: 2139.66912206
+    input 5: 7870.65391968
+    input 6: 32644.3767155
+     """
